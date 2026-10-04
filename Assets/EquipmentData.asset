@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6772983f59320d488cb3a34afb6b3ed, type: 3}
+  m_Name: EquipmentData
+  m_EditorClassIdentifier: Assembly-CSharp::EquipmentData
+  Parametors:
+  - Name: Sword
+    Attack: 10
+    Defence: 5
+    ModelPrefab: {fileID: 6601339950044240079, guid: 04a8d0559859a374d8a3dc029d63a542, type: 3}
+  - Name: Bow
+    Attack: 11
+    Defence: 0
+    ModelPrefab: {fileID: 8948740500867554570, guid: 32a3bdafc9d17c343a6d9537eac79890, type: 3}
+  - Name: Staff
+    Attack: 12
+    Defence: 1
+    ModelPrefab: {fileID: 5639817082102568599, guid: 0431e25551ca82642a657e83de65d797, type: 3}
