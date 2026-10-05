@@ -5,9 +5,4 @@ public class EquipmentModel : MonoBehaviour
     [SerializeField]
     private EquipmentData _equipmentData;
     public EquipmentData EquipmentData => _equipmentData;
-    
-    public void Initialize()
-    {
-        
-    }
 }

@@ -15,15 +15,23 @@ public class EquipmentIconView : MonoBehaviour
     [SerializeField] 
     private TextMeshProUGUI _nameText;
     
+    /// <summary>
+    /// ボタン
+    /// </summary>
     [SerializeField]
     private Button _button;
-
+    
+    /// <summary>
+    /// ボタン通知
+    /// </summary>
     private Subject<int> _onButtonClick = new Subject<int>();
     public IObservable<int> OnButtonClick => _onButtonClick;
     
     /// <summary>
     /// セットアップ
     /// </summary>
+    /// <param name="name">名前</param>
+    /// <param name="index">リストインデックス</param>
     public void Setup(
         string name,
         int index)
